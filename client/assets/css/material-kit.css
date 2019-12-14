@@ -14,6 +14,12 @@
 
  */
  
+ .logo-container {
+   height: 110px;
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
 
 /*     brand Colors              */
 
@@ -4194,6 +4200,7 @@ tbody.collapse.show {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  font-weight: bold;
 }
 
 .navbar-brand:hover,
@@ -18834,7 +18841,18 @@ thead.thead-inverse th,
 .card-profile .card-avatar {
   width: 130px;
   max-width: 130px;
+  height: 130px;
   max-height: 130px;
+}
+
+.profile-image {
+  object-fit: cover;
+  height: 130px !important;
+  width: 130px !important;
+}
+
+.profile-image {
+  object-fit: cover;
 }
 
 .card-profile [class*="col-"] .card-avatar {
@@ -20654,7 +20672,7 @@ select.selectpicker {
 }
 
 .about-us .about-description {
-  padding: 70px 0px 0px 0px;
+  padding: 35px 0px 0px 0px;
 }
 
 .about-us .about-services {
