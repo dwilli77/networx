@@ -40,26 +40,25 @@
   </head>
 
   <body class="landing-page sidebar-collapse">
-  <div
-    id="video-container"
-    style="display:none; position: absolute"
-  >
-    <div
-      style="background-color:rgba(0,0,0,0.7); position: fixed; height: 100vh; width: 100vw; top: 0; left: 0; z-index: 1031"
-      onclick="closeVideo()"
-    ></div>
-    <div style="position: fixed; left: 0; right: 0; margin-left: 0; margin-right: 0; top: 100px; z-index: 1032; display: flex; justify-content: center">
-    <iframe
-      style='border-radius: 8px; overflow: hidden;'
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/jQ5rZIvluhU"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+    <div id="video-container" style="display:none; position: absolute">
+      <div
+        style="background-color:rgba(0,0,0,0.7); position: fixed; height: 100vh; width: 100vw; top: 0; left: 0; z-index: 1031"
+        onclick="closeVideo()"
+      ></div>
+      <div
+        style="position: fixed; left: 0; right: 0; margin-left: 0; margin-right: 0; top: 100px; z-index: 1032; display: flex; justify-content: center"
+      >
+        <iframe
+          style="border-radius: 8px; overflow: hidden;"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jQ5rZIvluhU"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
-  </div>
     <nav
       class="navbar navbar-color-on-scroll navbar-transparent    fixed-top  navbar-expand-lg "
       color-on-scroll="100"
@@ -115,9 +114,9 @@
                 <a href="./client/network.html" class="dropdown-item">
                   Scope of Services for Member Sites
                 </a>
-                <!-- <a href="./client/network.html" class="dropdown-item">
+                <a href="./client/network.html#training" class="dropdown-item">
                   Training Opportunities
-                </!-->
+                </a>
                 <!--<a href="./client/network.html#acts" class="dropdown-item">
                   ACTS
                 </a> -->
@@ -433,6 +432,6 @@
     <script
       src="./client/assets/js/material-kit.js?v=2.1.1"
       type="text/javascript"
-      ></script>
-    </body>
+    ></script>
+  </body>
 </html>
